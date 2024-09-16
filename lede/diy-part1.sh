@@ -18,7 +18,7 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> 'feeds.co
 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >> 'feeds.conf.default'
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >> 'feeds.conf.default'
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main' >> 'feeds.conf.default'
-echo 'src-git helloworld https://github.com/fw876/helloworld.git;master' >>feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld.git;master' >>feeds.conf.default
 echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest.git' >>feeds.conf.default
 
 # add plugins
@@ -27,4 +27,4 @@ cd package/js
 git clone -b 18.06 https://github.com/xueyebai/luci-theme-argon.git
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git
 git clone  -b v5 https://github.com/sbwml/luci-app-mosdns.git
-# git clone https://github.com/sbwml/v2ray-geodata.git
+git clone https://github.com/sbwml/v2ray-geodata.git
