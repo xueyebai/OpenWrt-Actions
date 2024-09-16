@@ -27,4 +27,4 @@ cd package/js
 git clone -b 18.06 https://github.com/xueyebai/luci-theme-argon.git
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git
 git clone  -b v5 https://github.com/sbwml/luci-app-mosdns.git
-git clone https://github.com/sbwml/v2ray-geodata.git
+# git clone https://github.com/sbwml/v2ray-geodata.git
